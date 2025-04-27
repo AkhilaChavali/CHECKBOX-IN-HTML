@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>CHECK BOX</title>
+    </head>
+    <body bgcolor="yellow">
+        <H1 align="center">Hobby List</H1>
+        <hr style="height: 0cap; background-color: blue; border-radius: 0cap;">
+        <form>
+            <fieldset>
+                <legend>
+                    Favourite Hobbies 
+                </legend>
+                <label for="stories">Reading story books</label><br>
+                <input type="checkbox" id="stories" name="hobby" value="stories"><br>
+                <label for="games">Playing games</label><br>
+                <input type="checkbox" id="games" name="hobby" value="games"><br>
+                <label for="cooking">Cooking delightful dishes</label><br>
+                <input type="checkbox" id="cooking" name="hobby" value="cooking"><br>
+                <label for="songs">Listening songs</label><br>
+                <input type="checkbox" id="songs" name="hobby" value="songs"><br>
+                <label for="rest">A lethargical rest</label><br>
+                <input type="checkbox" id="rest" name="hobby" value="rest"><br>
+                <label for="dance">Dancing</label><br>
+                <input type="checkbox" id="dance" name="hobby" value="dance"><br>
+                <label for="travel">Travelling and roaming around</label><br>
+                <input type="checkbox" id="travel" name="hobby" value="travel"><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
